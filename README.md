@@ -1,0 +1,2 @@
+# PyBattery
+Laptop Battery Logger
