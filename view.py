@@ -9,8 +9,11 @@ data = pd.read_csv(LOG_FILENAME)
 x = data['timestamp']
 x = x - x[0]
 y = data['BatteryLifePercent']
+'''
 charging = data['BatteryFlag']
 charging = (charging & 8)
+'''
+charging = data['ACLineStatus']
 
 fig, ax = plt.subplots()
 ax.set_xlim(0, x[len(x) - 1] + 10)
