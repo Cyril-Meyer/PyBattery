@@ -19,6 +19,10 @@ edit view.py to change log filename.
 Require [GetSystemPowerStatus](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getsystempowerstatus) function, only compatible with Microsoft Windows operating system.
 
 ### Example
-This example has been captured with a new battery.
-![example view](PyBatteryView.png)
-[logs](PyBatteryLog.csv)
+New battery with an unknown problem.
+![example view 01](PyBatteryView01.png)
+[logs](PyBatteryLog01.csv)
+
+A complete cycle.
+![example view 02](PyBatteryView02.png)
+[logs](PyBatteryLog02.csv)
